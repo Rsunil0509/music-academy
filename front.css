@@ -1,0 +1,120 @@
+@CHARSET "ISO-8859-1";
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-image:url(https://wallpaperaccess.com/full/1332240.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.header{
+		color:white;
+		margin-top:10px;
+		
+}
+.header h1{
+	margin-left:20px;
+	background-color:white;
+	color:black;
+	padding:10px;
+	border-radius:10px;
+	
+	}
+
+ul,li,h1{
+	display:inline;
+}
+ul{
+	margin-left:60%;
+	
+}
+li{
+	padding:10px;
+	margin-left:10px;
+	border-radius:10px;
+	background-color:white;
+	text-align:center;
+	color:black;
+}
+.con{
+	position:absolute;
+	color:white;
+	margin-top:200px;
+	font-family:arial;
+	margin-left:100px;
+	background-color:transparent;
+	backdrop-filter:blur(10px);
+	border-radius:10px;
+	color:white;
+	width:500px;
+	height:100px;
+	text-align:center;
+	padding-top:30px;
+	
+}
+.input{
+	margin-top:120px;
+}
+.input h1{
+	color:white;
+	padding:10px;
+	border-radius:10px;
+	text-align:center;
+	background-color:white;
+	width:300px;
+	color:black;
+	font-size:20px;
+	margin-left:890px;
+
+	
+}
+.input input{
+	margin-top:30px;
+	margin-left:850px;
+	padding:5px;
+	width:250px;
+	border-radius:10px;
+	background-color:transparent;
+	color:white;
+	border-left:none;
+	border-top:none;
+	border-right:none;
+	border-color:white;
+
+
+}
+.btn{
+	margin-left:930px;
+	padding:10px;
+	margin-top:20px;
+	border-radius:10px;
+
+}
+::placeholder{
+	color:white;
+}
+.input input:focus{
+	outline:none;
+	
+}
+li:hover{
+	background-color:#f94a37;
+	color:black;
+	cursor:pointer;
+}
+.btn:hover{
+	background-color:#f94a37;
+	color:black;
+	cursor:pointer;
+}
+.con:hover{
+	background-color:#f94a37;
+	color:black;
+	cursor:pointer;
+}
+.header h1:hover{
+	background-color:#f94a37;
+	color:black;
+	cursor:pointer;
+}
